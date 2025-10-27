@@ -10,7 +10,7 @@ const connection :ConnectionObject={}
 async function dbConnect():Promise<void>{
     if(connection.isConnected)
     {
-        console.log("already connected")
+        console.log("database already connected")
         return 
     }
 
